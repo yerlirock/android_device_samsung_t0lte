@@ -23,7 +23,7 @@
 
     <!-- Whether a software navigation bar should be shown. NOTE: in the future this may be
          autodetected from the Configuration. -->
-    <bool name="config_showNavigationBar">true</bool>
+    <bool name="config_showNavigationBar">false</bool>
 
     <!-- XXXXX NOTE THE FOLLOWING RESOURCES USE THE WRONG NAMING CONVENTION.
          Please don't copy them, copy anything else. -->
@@ -189,6 +189,9 @@
          don't support RIL_REQUEST_GET_RADIO_CAPABILITY
          format is UMTS|LTE|... -->
     <string translatable="false" name="config_radio_access_family">GSM|GPRS|EDGE|WCDMA|LTE</string>
+     
+    <!-- Hardware keys on/off option -->
+    <bool name="config_hwKeysPref">true</bool>
 
     <!-- Doze mode -->
     <string name="config_dozeComponent">com.android.systemui/com.android.systemui.doze.DozeService</string>
