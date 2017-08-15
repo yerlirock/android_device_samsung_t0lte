@@ -8,8 +8,8 @@ ro.telephony.default_network=9
 telephony.lteOnGsmDevice=1
 ro.ril.telephony.mqanelements=6
 
-ro.sf.lcd_density=320
-ro.lcd_min_brightness=20
+ro.sf.lcd_density=230
+ro.lcd_min_brightness=5
 
 # System property ril adb log on
 persist.radio.adb_log_on=1
